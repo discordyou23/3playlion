@@ -1,6 +1,6 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
- const prefix = "3";
+ const prefix = "S";
 client.on('ready', () => {
     console.log('I am ready!');
 });
@@ -8,7 +8,7 @@ client.on('ready', () => {
 
 
 client.on('ready', () => {
-     client.user.setActivity("3music",{type: 'LISTENING'});
+     client.user.setActivity("Smusic/Splay",{type: 'LISTENING'});
 });
 
 
@@ -90,7 +90,7 @@ client.on('message', async msg => { // eslint-disable-line
 			        .setDescription(`**الرجآء من حضرتك إختيآر رقم المقطع** :
 ${videos.map(video2 => `[**${++index} **] \`${video2.title}\``).join('\n')}`)
 //by ,$ ReBeL ء , 🔕#4777 'CODES SERVER'
-					.setFooter("BomBot")
+					.setFooter("^_^")
 					msg.channel.sendEmbed(embed1).then(message =>{message.delete(20000)})
 
 					// eslint-disable-next-line max-depth
