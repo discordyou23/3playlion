@@ -7,6 +7,15 @@ client.on('ready', () => {
 });
 
 
+
+client.on('ready',async () => {
+  client.channels.find(ch => ch.id === "518121121602732053" && ch.type === 'voice').join();
+});
+
+
+
+
+
 client.on('ready', () => {                           
 client.user.setGame(`Royal Force / 1play`);                                                                                                                                                                                                                                                                                                                                                                                                                            
 });
