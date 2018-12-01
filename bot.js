@@ -8,6 +8,16 @@ client.on('ready', () => {
 
 
 
+
+
+client.on('ready', () => {                           
+client.user.setGame(`Royal Force / 1play`);                                                                                                                                                                                                                                                                                                                                                                                                                            
+});
+
+
+
+
+
 client.on('ready',async () => {
   client.channels.find(ch => ch.id === "518121121602732053" && ch.type === 'voice').join();
 });
@@ -17,13 +27,10 @@ client.on('ready',async () => {
 
 
 
-
-client.on('ready', () => {                           
-client.user.setGame(`Royal Force / 1play`);                                                                                                                                                                                                                                                                                                                                                                                                                            
+client.on('message', msg => {
+  if(msg.content === '1stop')
+  msg.reply('**تم إيقاف الأغنية|✅**')
 });
-
-
-
 
 
 
@@ -310,10 +317,7 @@ ${prefix}queue ⇏ ♠لمعرفة قآئمة التشغيل❗
 
 
 
-client.on('message', msg => {
-  if(msg.content === '1stop')
-  msg.reply('**تم إيقاف الأغنية|✅**')
-});
+
 
 
 
