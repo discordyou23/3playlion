@@ -9,13 +9,13 @@ client.on('ready', () => {
 
 
 
-//fofo
+
 client.on('ready', () => {                           
 client.user.setGame(`Royal Force / 1play`);                                                                                                                                                                                                                                                                                                                                                                                                                            
 });
 
-//fofo
 
+//اشتغل
 
 
 client.on('ready',async () => {
@@ -85,15 +85,6 @@ const YouTube = require('simple-youtube-api');
 const youtube = new YouTube("AIzaSyAdORXg7UZUo7sePv97JyoDqtQVi3Ll0b8");
 const queue = new Map();
 
-/*
-البكجآت
-npm install discord.js
-npm install ytdl-core
-npm install get-youtube-id
-npm install youtube-info
-npm install simple-youtube-api
-npm install queue
-*/
 
 
 
