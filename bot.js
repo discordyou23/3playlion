@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 
 
-
+//fofo
 client.on('ready', () => {                           
 client.user.setGame(`Royal Force / 1play`);                                                                                                                                                                                                                                                                                                                                                                                                                            
 });
