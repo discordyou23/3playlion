@@ -23,10 +23,9 @@ client.user.setGame(`Royal Force / 1play`);
 });
 
 
-client.on('message', msg => {
-  if(msg.content === '1stop')
-  msg.reply('**تم إيقاف الأغنية|✅**')
-});
+
+
+
 
 
 const developers = ["408005403381858304","513666662004686848"]
@@ -308,6 +307,13 @@ ${prefix}queue ⇏ ♠لمعرفة قآئمة التشغيل❗
 
    }
    });
+
+
+
+client.on('message', msg => {
+  if(msg.content === '1stop')
+  msg.reply('**تم إيقاف الأغنية|✅**')
+});
 
 
 
