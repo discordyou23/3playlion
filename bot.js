@@ -12,7 +12,9 @@ client.on('ready',async () => {
   client.channels.find(ch => ch.id === "518121121602732053" && ch.type === 'voice').join();
 });
 
-//بب
+
+
+
 
 
 
